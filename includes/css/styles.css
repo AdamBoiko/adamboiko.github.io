@@ -74,8 +74,13 @@ ul.unstyled {
    Carousel
    -------------------------------------- */
 
+.carousel-inner {
+	background: #B36F6F;
+	background: url('../../images/background.jpg') fixed;
+}
+
 #myCarousel {
-	margin-top: 60px;
+	margin-top: 50px;
 }
 
 .carousel-caption {
@@ -90,14 +95,17 @@ ul.unstyled {
 
 #slide1 {
 	background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+	opacity: 0.4;
 }
 
 #slide2 {
 	background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+	opacity: 0.4;
 }
 
 #slide3 {
 	background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+	opacity: 0.4;
 }
 
 
@@ -149,6 +157,19 @@ ul.unstyled {
 	margin-right: 5px;
 }
 
+.pages {
+	overflow: hidden;
+}
+
+#pages {
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.slide {
+	padding-top: 0px;
+}
 
 /* --------------------------------------
    Media Queries
@@ -174,14 +195,17 @@ ul.unstyled {
 	
 	#slide1 {
 		background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+		background-size:100% 100%; /* Used to increase Width */
 	}
 	
 	#slide2 {
 		background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+		background-size:100% 100%; /* Used to increase Width */
 	}
 	
 	#slide3 {
 		background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+		background-size:100% 100%; /* Used to increase Width */
 	}
 	
 	.carousel-caption {
@@ -201,14 +225,17 @@ ul.unstyled {
 	
 	#slide1 {
 		background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+		background-size:100% 100%; /* Used to increase Width */
 	}
 	
 	#slide2 {
 		background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+		background-size:100% 100%; /* Used to increase Width */
 	}
 	
 	#slide3 {
 		background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+		background-size:100% 100%; /* Used to increase Width */
 	}
 
 }
